@@ -18,7 +18,7 @@ int main(void) {
     printf("input is wrong please enter a numeric value!");
     return 0;
   }
-  // calculates if the amount of weight i too large compared to the amount of
+  // calculates if the amount of weight is too large compared to the amount of
   // motors
   if (5.6 < weight / Motors)
     printf("sorry the weight is too large");
